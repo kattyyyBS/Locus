@@ -1,6 +1,8 @@
+/* TODO change the pic sizes */
+
 body {
     font-family: 'Poppins';
-    margin: 30px 150px 100px 150px;
+    margin: 20px 200px 100px 100px;
     background-color: #fff;
 }
 
@@ -12,15 +14,17 @@ body {
     border-radius: 5px;
     color: #fff;
     font-family: 'Poppins';
-    font-size: 10px;
+    font-size: 9px;
     margin: 0;
 }
 
+
+/* HEADER section */
 .header {
     display: flex;
     width: 100%;
     justify-content: space-around;
-    align-items: baseline;
+    align-items: center;
 }
 
 .header__logo {
@@ -34,13 +38,13 @@ body {
 }
 
 .logo__pic {
-    height: 15px;
-    width: 12px;
+    height: 16px;
+    /* width: 12px; */
 }
 
 .logo__text {
     font-weight: 900;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 16px;
     color: #58A9A5;
     padding-left: 2px;
@@ -48,7 +52,7 @@ body {
 
 nav {
     flex-grow: 2;
-    padding-right: 75px;
+    padding-right: 20%;
 }
 
 .header__navbar {
@@ -61,7 +65,7 @@ nav {
 }
 
 .navbar__link {
-    font-size: 12px;
+    font-size: 9px;
     line-height: 14px;
     text-decoration: none;
     color: #404242;
@@ -77,14 +81,27 @@ nav {
 }
 
 .intro__text {
-    width: 38%;
-    padding-right: 28%;
-
+    max-width: 25%;
+    padding-top: 10px;
+    padding-right: 35%;
 }
 
+.intro__text--header {
+    font-size: 22;
+    font-weight: 800;
+}
+
+.intro__text--text {
+    font-size: 10px;
+}
+
+/* FIXME the polygon backgrorund */
 .intro__pic {
-    background: #CCF0E6;
-    clip-path: polygon();
+    background-image: url('./img/intro_pic_background.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 260px;
+    width: 277px;
 }
 
 .intro__pic--pic {
@@ -92,7 +109,83 @@ nav {
     height: 241px;
 }
 
-.intro__text--header {
-    font-size: 22;
-    font-weight: 800;
+
+
+/* SECTION */
+.section__header {
+    display: flex;
+    flex-direction: column;
+}
+
+.section__container {
+    display: flex;
+    flex-direction: column;
+    height: 116px;
+}
+
+.section__header--element {
+    margin: 10px auto 0 auto;
+    width: 28%;
+    text-align: center;
+}
+
+
+.container__pic {
+    display: inline-block;
+    height: 100%;
+}
+
+.container__top {
+    display: flex;
+    flex-direction: row;
+}
+
+.container__bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.pic-container {
+    height: 200px;
+}
+
+.container_bottom--description {
+    display: flex;
+    flex-direction: column;
+}
+
+/* OUR PROJECT */
+
+
+.our-project--two-lines {
+    height: 3px;
+    width: 6%;
+    border-top: 2px solid #58A9A5;
+    border-bottom: 2px solid #58A9A5;
+    position: relative;
+    left: 10%;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.our-project__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.projects-description {
+    margin: 10%;
+}
+
+.projects-description__header {
+    color: #58A9A5;
+    font-size: 12px;
+}
+
+.projects-description__text {
+    font-size: 8px;
+}
+
+.our-project--pic {
+    height: 150px;
 }
