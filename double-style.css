@@ -100,10 +100,6 @@ nav {
     margin: 0 auto 0 auto;
 }
 
-.intro__button {
-    margin-top: 2em;
-}
-
 .intro__pic {
     background-image: url('./img/intro_pic_background.svg');
     background-size: contain;
@@ -115,9 +111,6 @@ nav {
 .intro__pic__pic {
     width: 241px;
     height: 241px;
-    position: relative;
-    left: 1em;
-    top: 1em;
 }
 
 /* SECTION */
@@ -137,7 +130,6 @@ nav {
 .section__title {
     margin: 10px auto 0 auto;
     text-align: center;
-    font-size: 22px;
 }
 
 
@@ -258,13 +250,12 @@ nav {
 
 
 .how-it-works__bottom-header {
-    margin: 0;
     width: 60%;
-    font-size: 13px;
+font-size: 13px;
 }
 
 .how-it-works__bottom-text {
-    width: 90%;
+    width: 80%;
     font-size: 10px;
 
 }
@@ -274,12 +265,8 @@ nav {
     padding-right: 10%;
 }
 
-.our-project__title {
-    padding-top: 1em;
-}
 
-
-.two-lines {
+.our-project__two-lines {
     height: 3px;
     width: 5%;
     border-top: 1px solid #58A9A5;
@@ -323,13 +310,8 @@ nav {
 
 
 .testimonial {
-    padding-top: 3em;
+    padding: 3em;
 }
-
-.testimonial__title {
-    padding-right: 10%;
-}
-
 .brands {
     display: flex;
     justify-content: space-around;
@@ -355,7 +337,6 @@ nav {
 .info {
     display: flex;
     flex-direction: row;
-    width: 100%;
 }
 
 .info__pic-item {
@@ -363,133 +344,26 @@ nav {
 }
 
 .info__item {
-    width: 20%;
-    height: 220px;
+    width: 333px;
+    height: 233px;
     background-color: #CCF0E6;
     margin: 0 0 0 20%;
-    padding-left: 10%;
-    padding-top: 1em;;
 }
 
 .stats {    
-    width: 200%;
+    width: 147%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-}
-
-.stats__item {
-    width: 3em;
-}
-
-.stats__partnership-item {
-    width: 5em;
 }
 
 .stats__number {
     color: #58A9A5;
     font-size: 22px;
-    line-height: 1em;
-    margin: 0;
+    margin:0;
 }
 
 .stats__text {
     color: #58A9A5;
-    font-size: 10px;
-    line-height: 1.5em;
+    font-size: 12px;
     margin: 0;
-}
-
-.quote {
-    width: 120%;
-    padding: 0;
-    padding-top: 3em;
-    font-size: 9px;
-}
-
-.quote__container {
-    margin: 0;
-    position: relative;
-    z-index: 3;
-}
-
-.quote__container::after {
-    content: "“";
-    font-family: "Port Lligat Sans";
-    color: #fff;
-    font-size: 100px;
-    position: relative;
-    bottom: 1.1em;
-    right: 0.3em;
-    z-index: -1;
-}
-.quote__text {
-    color: #486958;
-    margin: 0;
-}
-
-.quote__author {
-    color:#58A9A5;
-}
-
-/* CONTACT US footer */ 
-.footer {
-    padding-top: 4em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.contact-us {
-    width: 15%;
-}
-
-.contact-us__title {
-    text-align: left;
-}
-
-.contact-us__text {
-    font-size: 9px;
-    color: #486958;
-    margin: 0;
-}
-
-.contact-us__two-lines {
-    width: 3em;
-    position: static;
-}
-
-.contact-us__form {
-    width: 70%;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding-left: 25%;
-}
-
-.contact-us__input {
-    width: 45%;
-    /* changed colours to follow the model (85%) */
-    border: 1px solid #d1e0d9;
-    display: flex;
-    flex-flow: column;
-    padding: 0.5em 1em;
-}
-
-.contact-us__full-name, .contact-us__email {
-    font-family: "Poppins";
-    font-size: 8px;
-    line-height: 3em;
-    border: none;
-    /* changed colours to follow the model */
-    border-bottom: 1px solid #d9d9d9;
-}
-
-.contact-us__description {
-    font-family: "Poppins";
-    font-size: 8px;
-    line-height: 3em;
-    border: none;
-    resize: none;    
 }
