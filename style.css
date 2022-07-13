@@ -1,5 +1,3 @@
-/* TODO change the pic sizes */
-
 body {
     font-family: 'Poppins';
     margin: 20px 200px 100px 100px;
@@ -18,6 +16,11 @@ body {
     margin: 0;
 }
 
+.section__title {
+    margin: 10px auto 0 auto;
+    text-align: center;
+    font-size: 22px;
+}
 
 /* HEADER section */
 .header {
@@ -84,6 +87,12 @@ nav {
     
 }
 
+.intro__title {
+    width: 90%;
+    text-align: left;
+    margin-left: 0;
+}
+
 .intro__text {
     max-width: 25%;
     padding-top: 10px;
@@ -112,7 +121,7 @@ nav {
     width: 277px;
 }
 
-.intro__pic__pic {
+.intro__inner-pic {
     width: 241px;
     height: 241px;
     position: relative;
@@ -134,11 +143,6 @@ nav {
     height: 116px;
 }
 
-.section__title {
-    margin: 10px auto 0 auto;
-    text-align: center;
-    font-size: 22px;
-}
 
 
 .container__pic {
